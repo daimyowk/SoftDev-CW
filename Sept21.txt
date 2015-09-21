@@ -1,0 +1,12 @@
+load vs import
+_name_
+git checkout - undoes everything since last time updated
+git log
+
+web apps
+html markup language
+
+python virtual environments for schools
+virtualenv name
+source bin/activate
+pip install Flask
