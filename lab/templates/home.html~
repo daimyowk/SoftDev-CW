@@ -1,0 +1,8 @@
+<!DOCTYPE html>
+<title>LOG IN</title>
+Create an account<br>
+<form method="GET">
+  Username:<input type="text" name="newuser">
+  Password:<input type="text" name="newpass">
+  <input type="submit" name="newaccount" value="create">
+</form>
