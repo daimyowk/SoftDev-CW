@@ -1,0 +1,129 @@
+responsive design - adjust based on window size
+sql push back
+because expensive
+sqlite not good for serious stuff
+doesnt suppport everything
+mysql still bad 
+
+nosql
+non sql database
+most schemaless
+document store
+MongoDB
+docment store 
+use api
+use itlike library
+collection - 
+document
+mongo has a shell
+
+mongodb basically java script
+BSON doc
+variatent of JSON javascript object notation
+like python dictionary
+
+use databaseName
+//switches to that database
+show collections
+
+var x = {"name":"tom", "age":30} // this way doest need quotes
+same as {'name':'tom',age:30}
+var y = {}
+y['age']=123
+y['name']="sue" //using brckets need quotes
+//can also use dot
+x.age
+
+db.students.insert(x) insert x into collection named students
+
+db.students.find()
+//gives everything back
+
+querying
+pass in dictionary and find
+
+db.students.find({'name':'tom'})
+
+db.students .find({age:123})
+
+db.students.find({'name':'sue'}, {'age':123})
+// and query
+
+db.students.find({age:{$lt:20}})
+// all ppl age 20 under
+
+db.studentss.find({$or:[{age:16}, {age:123}]})
+
+db.students.remove({}) //removes everyhing cause query is empty
+
+db.students.remove({'name':'tom'})
+
+db.students.remove({'name':'tom'},1)
+// removes only one tom
+
+db.students.update({name:"tom"},{age:15})
+//completely replaces tom with age 15. doesnt add replaces
+
+db.studenst.update({name:tom}, {$set:{'age':60}})
+//set doesnt get rid of old stuff just changes/replaces
+
+db.students.update{name:tom}, {$set:{'age':60,last:smith}})
+//set can also add stuff to it
+//if thing isnt there doenst do
+
+upsert if there update if not there add it
+
+mongo has nested dictionaries
+
+pymongo
+
+pip install pymongo
+pip install --upgrade pymongo
+
+----------------------------------------------------------
+python file
+
+import random
+from pymongo imoprt MongoClient
+
+#establishing a connection
+connection = MongoClient()
+
+#to connect to remove host MongoClient(host)
+db = connection.admin #use admin
+#or connection["admin"]
+db.authenticate('username','password') # use tolog into database
+
+db = connection['pd5']
+print db.collection_names() #gives list of collections
+
+names = ['Thluffy', 'Bucky', 'Susan','Victor','Sarah','Kictor']
+
+dtypes = ['plain','frosted','glazed','jelly']
+
+for i in range(10):
+    d = {'name':random.choice(names),'donut':random.choice(dtype),
+	'age':random.randrange(10,30)}
+    db.people.insert(d)
+
+l=[]
+for i in range(10):
+    d = {'name':random.choice(names),'donut':random.choice(dtype),
+	'age':random.randrange(10,30)}
+    l.append(d)
+db.people.insert(l)
+	
+red=db.people.find({'donut':'jelly'},{'donut':True},{"_id":False})
+# makes its so id doesnt show and only show donut
+for r in red:
+    print r
+
+---------------------------------
+
+goto rep
+make copy, one person
+fork to yourself
+give teammates access
+refactor
+rewrite database part
+
