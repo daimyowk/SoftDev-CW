@@ -1,0 +1,33 @@
+.database 
+show databases open
+.open databasefile
+.tables
+show all tables in database
+
+select people.name,doughnuts.name from people,doughnuts where age <11
+
+selects each people and give each one of each doughnut
+
+<> is not
+
+select people.name,doughnuts.name from people,doughnuts where age <11
+and doughtnuts.name <> "glazed";
+
+select * from people,classes where people.id=class.id;
+links two tables based on relationship
+
+select class.name,grade from people,classes where peple.id=classes.id and people.name="lisa";
+
+select people.name,doughtnuts.name from people,doughtnuts,classes where people.id=classes.id and classes.name="APCS" and classes.grade>95;
+look at all three tables and find link between classses and people and the person with grades of above 95 in apcs gets doughnuts
+
+select * from classes order by grade
+
+typical database use BTREE
+search tree that is guarrentted to be balance and full
+every node has two chlildren or 3
+2-3 tree but have alot of children or leaf
+shallow tree but fast search
+2-3 tree
+
+both give logritin=c speed

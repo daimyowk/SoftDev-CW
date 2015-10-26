@@ -1,0 +1,17 @@
+{% extends "test.html" %}
+like inheritance
+takes test.html unless u want to change say
+
+{% block body %}
+this would be different from test.html ubt rest same
+{% endblock body %}
+
+{% include "something.html" %}
+puts in code from something.html
+
+{{ list|safe }} 
+list is html
+safe is a jinjia filter
+safe allows list to work and make the list 
+if no safe then just comes out as plain text
+
