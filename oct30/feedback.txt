@@ -1,0 +1,7 @@
+database funcitons
+pid cid uid could be expanded so more easily understood. confusing to follow
+forcomment could have indicated return type
+good use of bootstrap very orignal
+
+readme could be more desciptive. 
+have list of features, ect
