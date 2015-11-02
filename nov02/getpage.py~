@@ -1,0 +1,10 @@
+''' wget gets webpage on command line 
+one way to get data is to get the website '''
+import urllib2
+
+url="https://www.stuy.edu"
+
+reuqest = urllib2.urlopen(url)
+result = request.read()
+print result
+#same as wget
