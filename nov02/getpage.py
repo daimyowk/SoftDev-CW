@@ -1,6 +1,7 @@
 ''' wget gets webpage on command line 
 one way to get data is to get the website '''
 import urllib2
+import json
 #from bs4 import BeautifulSoup
 
 url="https://www.nytimes.com"
@@ -21,3 +22,15 @@ print result
 #like function call but in url
 #api require a key most of the time
 # save api key as a variable
+
+#xml form of html
+r= json.loads(result)
+print r # convert into  dictionaies
+
+d={'name':'thomas', 'age':30}
+print json.dumps(d) #converts into json string
+
+#oauth let be a proxy
+#api console
+#giving website to playyyyy
+

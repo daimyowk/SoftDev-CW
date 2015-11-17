@@ -1,0 +1,16 @@
+entry box 
+who played bleh
+who was blah
+1. enter query
+
+2. google search
+python google api
+google.search("who played ironman")
+
+3.use beautiful soup to pull text
+
+
+who
+where
+when
+

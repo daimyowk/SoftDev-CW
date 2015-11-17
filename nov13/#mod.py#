@@ -1,0 +1,34 @@
+
+
+def inc(x):
+    """
+    return one more than parameter
+    """
+    return x+1:
+
+def add(a,b):
+    """
+    return sum of two parameter
+    """
+    return a+b
+
+"""
+pydoc built into python (not standard)
+spinx is standard for python and more
+pip instlal sphinx in venv
+have to first follow instructions
+yes to makefile and windows cmd file
+
+edit conf.py
+find sys path insert --> uncomment and make .. to make look at prev level for 
+python stuff
+have to add extension sphinx.ext.autodoc
+use build make to create html
+modify index with automodule: name of thing
+
+sphinx.ext.napoloean 
+parser for google documentation
+
+
+pycco
+"""

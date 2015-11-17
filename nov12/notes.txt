@@ -1,0 +1,9 @@
+Readme always first thing we see
+needs to be baller
+second is directory layout and file name
+make sure no stray stuff
+changes and todo
+group things reasonably
+try keep code on screen aprox 60-70 lines or less
+be consistant
+try use part of speech in functions and variables

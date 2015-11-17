@@ -1,0 +1,21 @@
+GIL
+Global Interpreter Lock
+threads - make multiple things happen at same time
+run one program which splits into threads of excution which run
+independtly and run at the same time
+under one program, share variables
+
+process model
+
+threads doesnt work well in python beacuse of GIL
+python threads FAKE AF
+only let one person at a time do things
+
+Gunicorn - container
+pip instlal gunicorn
+
+gunicorn -w 4 -b 0.0.0.0:8000 app:name(app)
+
+w means how many workers want to start
+secret_key had to be outside
+
