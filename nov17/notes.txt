@@ -1,0 +1,46 @@
+who query
+2 words, captial seperated by space
+words in common list of names followe by capital word
+words not in dictionary
+prefixes ex Mr. (bad beacuse may or may not give first and last)
+
+hard to do. just try to get high percentage
+
+regular expressions
+lanuage to specifiy patterns in string
+many flavors
+
+symbol matches itself
+^x means anchor to start of line. only match if at the beginning of line
+x% means to match to only end fo the line
+[  ] match any of the characters inside
+   can use dash to do continous stuff ex [0-9]
+
+[A-Z][a-z] mathces something with CAP then lower
+
+can give count
+[A-Z][a-z]{5} match with one CAP then 5 lowers
+
+{n} n of previous expression
+
+[a-z]? 
+? means 0 or 1 of previous epression
+
+[a-z]+
++ means 1 or more 
+
+[a-z]*
+* means 0 or more
+
+/d match digits
+
+[A-Z][a-z]+ cap letter first then one or more lower
+
+[A-Z][a-z]+ [A-Z][a-z]+
+single upper followed by one or more lower then space then again
+
+phone numbers
+
+test driven dev
+first design what reoutines should do
+then write code to test routines
