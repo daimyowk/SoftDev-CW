@@ -1,0 +1,9 @@
+use jquery
+generate mock data
+load in data to app.py
+every 5 seconds, new profile out of data to right
+to left search critiera
+
+two ajax calls
+one based on set intervals
+other send data up, call data down

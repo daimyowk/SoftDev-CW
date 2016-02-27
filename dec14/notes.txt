@@ -1,0 +1,15 @@
+project
+polished
+video 60 secs
+stuff learned in class
+can use libraries
+do not use without asking z
+twilio - api used for voice and texting
+       expensive, prob not use
+sendgrid - email stuff
+no mobile stuff for this
+phonegap - convert app into mobile app
+	 not as responsive as native but cross platform
+oauth
+javascript templates
+frameworks

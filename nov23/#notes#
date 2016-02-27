@@ -1,0 +1,79 @@
+def legal_password(pword):
+    """return if a password is legally formed
+    
+    arguments:
+	pword:string rep password
+
+    return:
+	true or false
+
+    Valid password requirements:
+    	at least one digit
+	between 5 and 8 char
+	at least one vowel
+    """
+    l = len(pword)
+    if l<5 or l>8
+       return false
+    else:
+	return True
+-----------------------------------------------------------------
+CLASS IN PYTHON 
+cdemo.py
+
+class cdemo():
+      a=20
+      def __init__(self,x=20):  #constructor in python, self = this in java
+      	  """
+	  constructor
+	  """
+	  self.x = x #instance variable
+	  self._p = 20 #private (sort of)
+      def inc(self):
+      	  self.x = self.x+1
+
+----------------------------------------------------------------------
+import unittest
+import auth(file to be tested)
+
+class TestDemo(unittest.TestCase): #extending unittest.TestCase
+      def setUp(self):
+      	  print "setting stuff up"
+      def tearDown(self):
+      	  print "test dones"
+
+      def test_short(self):
+      	  r= auth.legal_password("123")
+	  self.assertFalse(r)
+      def test_long(self):
+          r = auth.legal_password("124124124124")
+	  self.assertFlase(r)
+      def test_goodlength(self):
+      	  r = auth.legal_password("2141244")
+	  self.assertTrue(r)
+
+if __name__  == "__main__":
+   suite = unittest.TestLoader().loadTesterfromTestCase
+----------------------------------------------------------------
+
+digital ocean
+
+
+make a droplet
+choose plan
+do unbuntu
+setup ssh key
+      goto settings 
+      security
+add keys
+create
+do ssh root@droplet_machine
+setup passord
+adduser newaccount
+addgroup username sudo
+logout
+
+ssh user@droplet_machine
+update upgrade
+get nginx
+

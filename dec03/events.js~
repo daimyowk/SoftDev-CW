@@ -1,0 +1,5 @@
+var thluffy = document.querySelector("#thluffy");//give any css selector
+
+window.addEventListener('mousemove',function(e){
+    
+});

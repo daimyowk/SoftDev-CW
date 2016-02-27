@@ -1,0 +1,12 @@
+python isnt strongly typed, weak typed
+variable can be anything
+
+java is strongly typed
+have to say what variable is before putting stuff in
+
+duck typed
+
+think about function names
+put comments in docstring (""") to use help(functions)
+need consistant way of commenting
+

@@ -1,0 +1,36 @@
+Aim: Click it together
+DN:
+
+Paths used to draw arbitrary shapes, including circles and curves
+A context can keep track of one path at a time
+the path is not drawn until stroke() is called
+a path is considered done when a new beginPath()
+
+beginPath()
+	starts or resets current path
+moveTo(x,y)
+	moves path to position xy
+	does not reuslt in a line or filled in section
+lineTo(x,y)
+	moves path to position xy
+	will result in a line and a filled in section
+closePath()
+
+clearRect(a,b,c,d) clear canvas
+
+eventhandler
+
+get elemenetId. say its called button
+button.addEventListener("click", function)
+
+canvas id = playground
+button id = clear
+
+var clear = function(e){
+    e.preventDefault();
+}
+
+e.offsetX
+
+ip address
+149.89.160.101-105

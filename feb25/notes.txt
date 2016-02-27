@@ -1,0 +1,39 @@
+XML:
+eXtensible Markup Lanuage
+markup lanuage defines set of rules for encoding doc in format
+both human and machine readable
+
+not formating language like html
+framework for creating markup based grammars
+uses some syntactic stands of html(tags,attriubutes)
+focus on sorting and represneting data instead of rendering, displaying it
+xml namespace defined by tags and attributes assoicated with specifc xml lanauge
+
+SVG:
+scalable vector graphics
+vector image format
+xml based
+an svg img and its actions defined in xml text files
+
+vector graphics are images not represented as a 2d grid of pixels(raster) but instead as a list of drawing commadns (like line circle, rectange curve)
+
+biggest advantage to vector graphics is that they are scalable any size without resulting in pixelation
+
+the <svg> elment is designed to store SVG code
+
+creating svg elements in js
+document.createElementNS(
+	<namespace identifer>
+	<element>
+);
+
+creates an element from a specified XML namepace svg example:
+var c1 = document.createElementNS("www.w3.org/2000/svg","circle");
+
+Once created you can modify it with setAttribute calls c1.setAttribute("cx","200")
+
+to add element to svg container use appendchild
+
+var pic = document.getElementById("svgid");
+pic.appendChild(c1);
+

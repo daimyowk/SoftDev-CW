@@ -1,0 +1,25 @@
+Aim: Mawr JS on teh canvas. mawr
+
+HW Server
+OSIS is password
+Login
+change pass
+upload index.html, canvas.js in seperate slots
+
+index.html
+	canvas with id "ftb2maga"
+	dimensions: 538x538 px
+canvas.js
+	make certain shapes
+	make good comments about arguements and what it does
+	
+// ctx.beginPath()
+// ctx.moveTo(a,b)
+// ctx.lineTo(a,b)
+// ctx.closePath()
+// ctx.stroke()
+//ctx.fill()
+
+//ctx.arc(a,b,c,d,e)
+//ctx.font="30px arial"
+//ctx.Text(txt,a,b)

@@ -1,0 +1,11 @@
+write tests first
+then write the code
+
+doctests
+
+"""
+
+write answering system
+be minimal with who query
+also a when query
+need some doctest

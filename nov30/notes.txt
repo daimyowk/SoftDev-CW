@@ -1,0 +1,9 @@
+control shift j  = javascript console
+javascrip runs automatically
+if in beginning run before rest of code/ html does
+usual put at end
+
+scoping
+if just x=20, basically a global variable
+var x = 20 makes it local
+

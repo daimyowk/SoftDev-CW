@@ -1,0 +1,28 @@
+submodules
+allow work locally without pulling
+two submodules
+1 workshops
+2 
+<your repo>/hw01/everything we've done so far
+           /hw02/ tonights hw - index.html animate.html
+	   
+GIT SUBMODULES
+clone 
+
+
+git clone workshop
+git submodule add <https link> <first_last>
+git pull;git commit -a -m"commit message";git push
+
+rm -rf workshop
+
+
+useful:
+window.requestAnimationFrame(<fxn>)
+
+tells browser to run specified fxn before drawing next frame
+allows browser to handle when code should be executed (as opposed to setInterval
+which is based on specific times).
+allows browser to pause animation when a page is no in foreground
+fxn must call requestAnimationFrame() to animate another frame at next repaint
+Browser will attempt to run 60 frames per second

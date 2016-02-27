@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="jquery.js"></script>
+  </head>
+
+  <body>
+    <script src="mycode.js"></script> <!-- combine two into one big file -->
+  </body>
+</html>

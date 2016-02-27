@@ -1,0 +1,20 @@
+javascript make calls to server without refreshing
+webpage = gui interface
+dont want to wait for server
+ajax asycronist
+use jquerey for ajax
+no cross site scripting
+only thing we can call is own server
+python mod SimpleHTTPServer
+if run in directory, run a server in that place
+java script run to completion
+
+setup a timer
+ever x seconds , issue a get to go get stock prices
+send back
+
+just like callback, only get called when date comeback
+flask server single tread
+gunicorn multithread
+
+

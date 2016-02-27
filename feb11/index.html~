@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title> Playground</title>
+  </head>
+  <body>
+    <h1> Something here </h1>
+    <canvas height="1000" width="1000" id="playground">
+    </canvas>
+    <script src="dotconn.js">
+    </script>
+  </body>
+</html>

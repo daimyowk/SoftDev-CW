@@ -1,0 +1,46 @@
+Aim: Canvassing the nabe with DOM and HTML5
+DN: Year 1995
+a. What wearing?
+
+b. What does CD collection look like?
+A lot of CDs
+c. What is state of internet?
+Beginning.
+d. What does your webpage look like?
+Very basic
+
+Reason for WWW
+-share stuff more easily
+-hyperlink make stuff happen
+
+lynx browser in terminal
+people used internet explorer
+also netscape which became firefox 
+netscape navigator was the thang back then
+
+browser war
+netscape vs ie
+
+netscape --> JavaScript
+IE ---> JScript
+
+Late 90s: Enter DOM
+W3C forms, introduces
+worldwide web constortum
+
+DOM - Document Object Model
+-organizes components of a webpage as a tree
+-provides API for languages like JS ot access page elements
+
+try to give uniformity. give a standard
+       
+		DOCUMENT
+		   |
+		HTML
+	HEAD		BODY
+	|		|  |
+	TITLE		H1 P
+	|		|  |
+	"Mckay"		"" ""
+
+homestar runner

@@ -1,0 +1,10 @@
+var c = document.getElementById("ftb2maga");
+var ctx = c.getContext("2d");
+// ctx.beginPath()
+// ctx.moveTo(a,b)
+// ctx.lineTo(a,b)
+// ctx.closePath()
+// ctx.stroke()
+//ctx.fill()
+ctx.beginPath()
+ctx.moveTo(15,0)
